@@ -1,0 +1,8 @@
+General idea for the code, scan input list, put all of them in array list, and then have the code run through the list and sort one by one.
+
+File reader(input.txt);
+scanner(file) = String inputs;
+sorting(inputs);
+Filewriter(path... output.txt);
+    loop(i=0; i<size; i++)
+        write(string(name);

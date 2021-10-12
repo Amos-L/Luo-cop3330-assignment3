@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+sort <|-- input
+writing <|-- sort
+input <|-- Main
+
+class Main {
++readFile
++sortFile(readFile String output)
++writeOutputfile(sortFile)
+}
+
+class input {
++input.txt
+-return String(input.txt)
+}
+
+class sort {
++input String from input.txt
+-return Sorted(string)
+}
+
+class writing{
++sorted(string)
+-output.txt
+-void
+}
+
+
+
+
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+inputSort <|-- Main
+
+class Main {
+-Call input/sort function
+}
+
+class inputSort {
+~input.txt
+~String(Error & result)
+~Scanner input.txt
+~String infoList
+~String[] parsing
+-System.out(String[1],[2],[3])
+-return result or Error String
+}
+
+
+
+
+
+@enduml

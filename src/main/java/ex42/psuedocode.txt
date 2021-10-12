@@ -1,0 +1,11 @@
+Goal is to scan the input file and sort through using ","
+
+Fileopen (input.txt);
+Scanner(input);
+while(line still has words){
+    String = read.nextLine
+    String array = parsed(String)(sorted by ",")
+    printf(String[0], String[1], String[2])
+}
+if no error
+return result message;

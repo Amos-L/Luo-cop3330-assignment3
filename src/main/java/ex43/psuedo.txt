@@ -1,0 +1,31 @@
+Prompt user with questions and then from there create files
+
+System.out(Site Name);
+sitename = Scanner(nextLine);
+System.out(Author);
+Author = Scanner(nextLine);
+
+System.out(Want javaS?);
+javaS = Scanner(nextLine);
+convert to boolean value;
+
+System.out(Want CSS?);
+CSS = Scanner(nextLine);
+convert to boolean value;
+
+File.create(path+sitename)
+if(boolean javaS = Y){
+    File.create(path+JavaS);
+}
+    else{
+    do nothing
+    }
+
+if(boolean CSS = Y){
+    File.create(path+CSS);
+}
+    else{
+    do nothing
+    }
+
+file.write(HTML index with author and sitename);

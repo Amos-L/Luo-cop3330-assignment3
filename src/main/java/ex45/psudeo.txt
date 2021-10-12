@@ -1,0 +1,9 @@
+Read input and store into string and then sort using command
+
+Scanner x;
+File file(input.txt);
+Scanner x = scan(input.txt);
+String inputs = next.line();
+String SortedINput = sort.inputs;
+File write(output.txt);
+File write(SortedInput);

@@ -1,0 +1,15 @@
+Read JSON file using GSON
+use GSON to parse
+Output file
+
+ScannerGSON;
+File file(input.JSON)
+ScannerGSON(input.JSON)
+String(input) = scanner
+parseGSON(input);
+System.out(prompt)
+Scanner input
+if(input = one of items)
+print results;
+else
+"try again"

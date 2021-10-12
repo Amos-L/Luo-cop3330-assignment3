@@ -1,0 +1,28 @@
+
+@startuml
+'https://plantuml.com/class-diagram
+
+read <|-- Main
+printOutput <|-- read
+
+class Main {
+~String Author
+~String siteName
+~Boolean javaS
+~Boolean CSS
+-String/Boolean
+}
+
+class read {
+~String Path
+~File file = new File(path)
+~File file = new javaS
+~File file = new CSS;
+-Files
+}
+
+class printOutput {
+-Created...
+}
+
+@enduml

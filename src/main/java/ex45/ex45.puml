@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+readFile <|-- Main
+replaceWord <|-- readFile
+writeout <|-- replaceWord
+replaceWord <|-- Main
+writeout <|-- Main
+
+class Main {
+-Call readFile
+-Call replaceWord(readFile)
+-Call writeout(replaceWord)
+}
+
+class readFile {
+~Scanner x
+~String inputs
+~ArrayList<String> fileINputs
+~String ListString
+-listString
+}
+
+class replaceWord {
+~newString
+-newString
+}
+
+class writeout {
+~FileWriter writer
+-output.txt
+}
+
+@enduml

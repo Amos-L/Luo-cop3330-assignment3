@@ -1,0 +1,10 @@
+File read(input.txt)
+Scanner(input.txt);
+Maptree<String,int> words;
+
+for()
+scanner = words;
+
+for(..)
+printf(word, *)
+

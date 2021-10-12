@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+readFile <|-- Main
+printOutput <|-- readFile
+
+class Main {
+-Call readFile
+}
+
+class readFile {
+~String Path
+~GSONScanner x
+~Parsed line
+-Parsed Line
+}
+
+class printOutput {
+-Prompt user input
+-if(input=item)
+else (try again)
+}
+
+@enduml
